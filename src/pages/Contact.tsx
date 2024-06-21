@@ -1,9 +1,11 @@
 import React from "react";
+import Header from "../components/Header";
 
 const Contact = () => {
   return (
-    <>
-      <div className="bg-gray-50 h-[calc(100vh-5rem)] p-8 text-gray-800 justify-center m-auto flex items-center">
+    <div className="relative">
+      <Header className="absolute w-full text-gray-800" />
+      <div className="bg-gray-50 h-svh p-8 text-gray-800 justify-center m-auto flex items-center">
         <div className="w-full sm:max-w-sm md:max-w-lg">
           <h1 className="text-4xl font-semibold tracking-wide uppercase text-left">
             Contact Us
@@ -82,7 +84,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

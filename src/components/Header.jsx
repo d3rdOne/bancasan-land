@@ -9,7 +9,7 @@ const Header = () => {
         <img src={logo} alt="" className='h-32 lg:h-64'/>
       </div>
       <nav className="hidden md:flex gap-8 font-medium text-xl text-gray-200 tracking-wider">
-        <a href="/home">Home</a>
+        <a href="/">Home</a>
         <a href="/gallery">Gallery</a>
         <a href="/contact">Contact</a>
       </nav>

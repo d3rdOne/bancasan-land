@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input--field {
+  @apply mt-1 py-1 px-2 outline-black outline-1 text-gray-800 border-[1px] border-gray-400 shadow-sm
+}
+
+.input--label {
+  @apply text-sm text-gray-700 font-medium
+}
+
+.input--label-span {
+  @apply text-gray-700;
+}

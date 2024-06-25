@@ -13,8 +13,8 @@ const HeroGallery = ({className}) => {
               className="rounded-xl w-full md:max-w-md min-h-64 border-solid  bg-slate-500  border-0 relative">
                 {/* <img className="absolute z-0" src='' alt="test" /> */}
                 <div className="absolute w-full h-full flex flex-col items-center justify-center gap-4">
-                  <p className="text-lg sm:text-2xl font-medium text-gray-200">{item.label}</p>
-                  <button className="bg-slate-200 py-2 px-6 rounded-full text-md sm:text-lg text-gray-600 font-semibold">View Gallery</ button>
+                  <p className="text-lg sm:text-2xl font-medium text-gray-100">{item.label}</p>
+                  <button className="bg-slate-200 py-2 px-6 rounded-full text-md sm:text-lg text-gray-800 font-semibold">View Gallery</ button>
                 </div>
             </div>
           )
